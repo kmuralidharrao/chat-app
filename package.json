@@ -1,0 +1,30 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "A simple chatting application using node js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "env-cmd -f ./config/dev.env nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmuralidharrao/chat-app.git"
+  },
+  "author": "K Muralidhar Rao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kmuralidharrao/chat-app/issues"
+  },
+  "homepage": "https://github.com/kmuralidharrao/chat-app#readme",
+  "dependencies": {
+    "bad-words": "^3.0.4",
+    "express": "^4.17.2",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0",
+    "nodemon": "^2.0.15"
+  }
+}
